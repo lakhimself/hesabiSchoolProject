@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>رشته مکانیک خودرو - هنرستان دکتر حسابی</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Vazirmatn', sans-serif;
+            scroll-behavior: smooth;
+        }
+
+        .section-padding {
+            padding: 80px 0;
+        }
+    </style>
+</head>
+
+<body class="bg-gray-50">
+    <!-- Header -->
+    <header class="bg-white shadow-sm fixed w-full z-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center py-4">
+                <div class="flex items-center">
+                    <span class="ml-3 text-2xl font-bold text-gray-900">هنرستان دکتر حسابی</span>
+                </div>
+                <button class="md:hidden text-gray-700" id="menu-toggle">
+                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path id="menu-icon" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M4 6h16M4 12h16M4 18h16" />
+                    </svg>
+                </button>
+            </div>
+            <!-- Mobile Menu -->
+            <div id="mobile-menu" class="md:hidden py-4 border-t border-gray-200 hidden">
+                <div class="flex flex-col space-y-4">
+                    <a href="../index.html"
+                        class="text-left text-gray-600 hover:text-blue-600 transition-colors font-medium py-2">بازگشت به
+                        صفحه اصلی</a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="pt-32 pb-20 bg-gradient-to-r from-blue-50 to-indigo-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <div class="w-24 h-24 bg-blue-600 rounded-full flex items-center justify-center mx-auto mb-8">
+                <span class="text-white text-4xl">⚙️</span>
+            </div>
+            <h1 class="text-4xl md:text-6xl font-bold text-gray-900 mb-6">
+                رشته مکانیک خودرو
+            </h1>
+            <p class="text-xl md:text-2xl text-gray-600 mb-12 max-w-3xl mx-auto">
+                طراحی و ساخت سیستم‌ها و راه‌حل‌های مکانیکی نوآورانه
+            </p>
+            <a href="../index.html"
+                class="bg-blue-600 text-white px-8 py-4 rounded-lg text-lg font-semibold hover:bg-blue-700 transition-colors inline-block">
+                بازگشت به صفحه اصلی
+            </a>
+        </div>
+    </section>
+
+    <!-- Content Section -->
+    <section class="py-20 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center mb-20">
+                <div>
+                    <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-6">معرفی رشته مکانیک خودرو</h2>
+                    <p class="text-lg text-gray-600 mb-6">
+                        رشته مکانیک خودرو یکی از رشته‌های پرطرفدار و کاربردی در هنرستان‌های ایران است که دانش‌آموزان را
+                        برای تعمیر، نگهداری و ساخت قطعات خودرو آماده می‌سازد.
+                    </p>
+                    <p class="text-lg text-gray-600 mb-6">
+                        این رشته با توجه به پیشرفت صنعت خودروسازی در ایران و نیاز روزافزون به متخصصان این حوزه، اهمیت
+                        ویژه‌ای پیدا کرده است. دانش‌آموزان این رشته با سیستم‌های مختلف خودرو از جمله موتور، تعلیق، ترمز،
+                        سیستم‌های الکتریکی و الکترونیکی آشنا می‌شوند.
+                    </p>
+                    <p class="text-lg text-gray-600">
+                        فارغ‌التحصیلان این رشته می‌توانند در کارگاه‌های تعمیراتی، نمایندگی‌های خودرو، خطوط تولید
+                        کارخانجات خودروسازی و یا به‌صورت مستقل فعالیت کنند.
+                    </p>
+                </div>
+                <div
+                    class="bg-gray-200 border-2 border-dashed rounded-xl w-full h-96 flex items-center justify-center text-gray-500">
+                    تصویر مکانیک خودرو
+                </div>
+            </div>
+
+            <div class="mb-20">
+                <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-12 text-center">اهداف آموزشی رشته</h2>
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                    <div class="bg-blue-50 p-8 rounded-xl">
+                        <div class="text-3xl mb-4 text-blue-600">🔧</div>
+                        <h3 class="text-xl font-bold text-gray-900 mb-3">مهارت‌های عملی</h3>
+                        <p class="text-gray-600">آموزش مهارت‌های عملی تعمیر و نگهداری خودروهای سبک و سنگین</p>
+                    </div>
+                    <div class="bg-blue-50 p-8 rounded-xl">
+                        <div class="text-3xl mb-4 text-blue-600">📚</div>
+                        <h3 class="text-xl font-bold text-gray-900 mb-3">دانش تئوری</h3>
+                        <p class="text-gray-600">آشنایی با اصول فیزیک و مکانیک مورد نیاز در صنعت خودرو</p>
+                    </div>
+                    <div class="bg-blue-50 p-8 rounded-xl">
+                        <div class="text-3xl mb-4 text-blue-600">🏭</div>
+                        <h3 class="text-xl font-bold text-gray-900 mb-3">آمادگی صنعتی</h3>
+                        <p class="text-gray-600">آماده‌سازی دانش‌آموزان برای ورود به بازار کار صنعتی</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="mb-20">
+                <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-12 text-center">دروس تخصصی رشته</h2>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                    <div class="space-y-6">
+                        <div class="flex items-start">
+                            <div class="bg-blue-100 rounded-full p-2 mr-4 mt-1">
+                                <div class="w-2 h-2 bg-blue-600 rounded-full"></div>
+                            </div>
+                            <div>
+                                <h3 class="text-xl font-bold text-gray-900 mb-2">موتورهای درون‌سوز</h3>
+                                <p class="text-gray-600">اصول کار، ساخت، تعمیر و نگهداری موتورهای بنزینی و دیزل</p>
+                            </div>
+                        </div>
+                        <div class="flex items-start">
+                            <div class="bg-blue-100 rounded-full p-2 mr-4 mt-1">
+                                <div class="w-2 h-2 bg-blue-600 rounded-full"></div>
+                            </div>
+                            <div>
+                                <h3 class="text-xl font-bold text-gray-900 mb-2">سیستم تعلیق و فرمان</h3>
+                                <p class="text-gray-600">تعمیر و تنظیم سیستم‌های تعلیق، فرمان و ترمز</p>
+                            </div>
+                        </div>
+                        <div class="flex items-start">
+                            <div class="bg-blue-100 rounded-full p-2 mr-4 mt-1">
+                                <div class="w-2 h-2 bg-blue-600 rounded-full"></div>
+                            </div>
+                            <div>
+                                <h3 class="text-xl font-bold text-gray-900 mb-2">سیستم‌های انتقال قدرت</h3>
+                                <p class="text-gray-600">گیربکس دستی و اتوماتیک، پل‌های متحرک و کلاچ</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="space-y-6">
+                        <div class="flex items-start">
+                            <div class="bg-blue-100 rounded-full p-2 mr-4 mt-1">
+                                <div class="w-2 h-2 bg-blue-600 rounded-full"></div>
+                            </div>
+                            <div>
+                                <h3 class="text-xl font-bold text-gray-900 mb-2">برق خودرو</h3>
+                                <p class="text-gray-600">سیستم‌های الکتریکی و الکترونیکی خودرو و تعمیر آن‌ها</p>
+                            </div>
+                        </div>
+                        <div class="flex items-start">
+                            <div class="bg-blue-100 rounded-full p-2 mr-4 mt-1">
+                                <div class="w-2 h-2 bg-blue-600 rounded-full"></div>
+                            </div>
+                            <div>
+                                <h3 class="text-xl font-bold text-gray-900 mb-2">بدنه و رنگ</h3>
+                                <p class="text-gray-600">تعمیر بدنه، جوشکاری و رنگ‌آمیزی خودرو</p>
+                            </div>
+                        </div>
+                        <div class="flex items-start">
+                            <div class="bg-blue-100 rounded-full p-2 mr-4 mt-1">
+                                <div class="w-2 h-2 bg-blue-600 rounded-full"></div>
+                            </div>
+                            <div>
+                                <h3 class="text-xl font-bold text-gray-900 mb-2">تشخیص و عیب‌یابی</h3>
+                                <p class="text-gray-600">استفاده از تجهیزات تشخیصی و عیب‌یابی مدرن</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="bg-blue-50 rounded-2xl p-8 md:p-12">
+                <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-8 text-center">مزایای رشته مکانیک خودرو</h2>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                    <div>
+                        <h3 class="text-2xl font-bold text-blue-600 mb-4">در بازار کار</h3>
+                        <ul class="space-y-4">
+                            <li class="flex items-start">
+                                <div class="bg-blue-100 rounded-full p-1 mr-3 mt-1">
+                                    <svg class="w-4 h-4 text-blue-600" fill="none" stroke="currentColor"
+                                        viewBox="0 0 24 24">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                            d="M5 13l4 4L19 7"></path>
+                                    </svg>
+                                </div>
+                                <span class="text-gray-700">تقاضای بالا در صنعت خودروسازی و خدماتی</span>
+                            </li>
+                            <li class="flex items-start">
+                                <div class="bg-blue-100 rounded-full p-1 mr-3 mt-1">
+                                    <svg class="w-4 h-4 text-blue-600" fill="none" stroke="currentColor"
+                                        viewBox="0 0 24 24">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                            d="M5 13l4 4L19 7"></path>
+                                    </svg>
+                                </div>
+                                <span class="text-gray-700">امکان کارآفرینی و راه‌اندازی کارگاه شخصی</span>
+                            </li>
+                            <li class="flex items-start">
+                                <div class="bg-blue-100 rounded-full p-1 mr-3 mt-1">
+                                    <svg class="w-4 h-4 text-blue-600" fill="none" stroke="currentColor"
+                                        viewBox="0 0 24 24">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                            d="M5 13l4 4L19 7"></path>
+                                    </svg>
+                                </div>
+                                <span class="text-gray-700">درآمد مناسب و پایدار</span>
+                            </li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h3 class="text-2xl font-bold text-blue-600 mb-4">در تحصیل</h3>
+                        <ul class="space-y-4">
+                            <li class="flex items-start">
+                                <div class="bg-blue-100 rounded-full p-1 mr-3 mt-1">
+                                    <svg class="w-4 h-4 text-blue-600" fill="none" stroke="currentColor"
+                                        viewBox="0 0 24 24">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                            d="M5 13l4 4L19 7"></path>
+                                    </svg>
+                                </div>
+                                <span class="text-gray-700">امکان ادامه تحصیل در دانشگاه‌های فنی</span>
+                            </li>
+                            <li class="flex items-start">
+                                <div class="bg-blue-100 rounded-full p-1 mr-3 mt-1">
+                                    <svg class="w-4 h-4 text-blue-600" fill="none" stroke="currentColor"
+                                        viewBox="0 0 24 24">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                            d="M5 13l4 4L19 7"></path>
+                                    </svg>
+                                </div>
+                                <span class="text-gray-700">آموزش عملی در محیط‌های صنعتی واقعی</span>
+                            </li>
+                            <li class="flex items-start">
+                                <div class="bg-blue-100 rounded-full p-1 mr-3 mt-1">
+                                    <svg class="w-4 h-4 text-blue-600" fill="none" stroke="currentColor"
+                                        viewBox="0 0 24 24">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                            d="M5 13l4 4L19 7"></path>
+                                    </svg>
+                                </div>
+                                <span class="text-gray-700">استفاده از تجهیزات مدرن و صنعتی</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white py-12">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center">
+                <div class="flex items-center justify-center mb-4">
+                    <div class="w-8 h-8 bg-blue-600 rounded-lg flex items-center justify-center">
+                        <span class="text-white font-bold">د</span>
+                    </div>
+                    <span class="mr-2 text-xl font-bold">هنرستان دکتر حسابی</span>
+                </div>
+                <p class="text-gray-400 max-w-2xl mx-auto">
+                    هنرستان دکتر حسابی با هدف تربیت نیروهای متخصص فنی در رشته‌های مکانیک خودرو، کامپیوتر و برق صنعتی
+                    فعالیت می‌کند.
+                </p>
+                <div class="border-t border-gray-700 mt-8 pt-8 text-center text-gray-400">
+                    <p>&copy; ۱۴۰۲ هنرستان دکتر حسابی. تمامی حقوق محفوظ است.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Mobile menu toggle
+        const menuToggle = document.getElementById('menu-toggle');
+        const mobileMenu = document.getElementById('mobile-menu');
+        const menuIcon = document.getElementById('menu-icon');
+
+        menuToggle.addEventListener('click', () => {
+            mobileMenu.classList.toggle('hidden');
+            const isOpen = !mobileMenu.classList.contains('hidden');
+            menuIcon.setAttribute('d', isOpen ?
+                'M6 18L18 6M6 6l12 12' :
+                'M4 6h16M4 12h16M4 18h16'
+            );
+        });
+
+        // Close mobile menu when clicking outside
+        document.addEventListener('click', (event) => {
+            if (!menuToggle.contains(event.target) && !mobileMenu.contains(event.target)) {
+                if (!mobileMenu.classList.contains('hidden')) {
+                    mobileMenu.classList.add('hidden');
+                    menuIcon.setAttribute('d', 'M4 6h16M4 12h16M4 18h16');
+                }
+            }
+        });
+    </script>
+</body>
+
+</html>
